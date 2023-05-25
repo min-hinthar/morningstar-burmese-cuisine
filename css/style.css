@@ -26,6 +26,18 @@
 
   --color-white: #fff;
   --color-creamson: #fff0de;
+  --color-starcream1: #EAD96F;
+  --color-starcream2: #F1E578;
+  --color-starcream3: #FFD500;
+  --color-starorange1: #FDBA4D;
+  --color-starorange2: #FCB74A;
+  --color-starorange3: #FC704A;
+  --color-starred1: #A41919;
+  --color-starred2: #A32E2E;
+  --color-starred3: #700606;
+  --color-starred4: #EE1D25;
+  --color-stargreen1: #00A04E;
+  --color-stargreen2: #00A692;
 }
 
 * {
