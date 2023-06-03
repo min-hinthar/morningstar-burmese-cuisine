@@ -7,16 +7,17 @@
 .hero-image {
     flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     position: relative;
     z-index: 5;
 
-    overflow: hidden;
+    overflow: visible;
+    padding: 1rem;
 }
 
 .hero-image img {
-    width: 100%;
+    width: 120%;
     height: 100%;
     object-fit: contain;
 }
@@ -28,4 +29,16 @@
 
     background-color: var(--color-starred2);
     z-index: -1;
+}
+
+.hero-image h2 {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+
+    font-family: var(--playfair-display);
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 138px;
+    color: ghostwhite;
 }
