@@ -42,3 +42,33 @@
     line-height: 138px;
     color: ghostwhite;
 }
+
+.hero-content {
+    flex: 1.22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    overflow: visible;
+    z-index: 5;
+
+    background-image: url("../../assets/pngs/Curry-1.png"),  url("../../assets/pngs/Fried Rice-1.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 10px top 10px, right 10px bottom 50px;
+    background-size: 400px, 400px;
+    
+}
+
+.hero-content-info {
+    padding: 3rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content-info h1 {
+    font-size: 5rem;
+    font-family: var(--playfair-display);
+    color: var(--black-400);
+}
