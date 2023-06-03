@@ -11,11 +11,12 @@
     padding: 20px;
 }
 
-.header__logo h1 {
+.header__logo img {
     padding-left: 30px;
 
-    color: var(--color-starcream3);
-    font-size: 3rem;
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
     z-index: 2;
 }
 
