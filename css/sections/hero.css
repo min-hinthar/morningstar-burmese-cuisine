@@ -60,7 +60,7 @@
 }
 
 .hero-content-info {
-    padding: 3rem;
+    /* padding: 2rem; */
     flex: 1;
     display: flex;
     justify-content: center;
@@ -68,13 +68,14 @@
 }
 
 .hero-content-info h1 {
+    margin: 0 0 0 2rem;
     font-size: 5rem;
     font-family: var(--playfair-display);
     color: var(--black-400);
 }
 
 .hero-content-info p {
-    margin: 40px 0 0 40px;
+    margin: 40px 0 50px 100px;
 
     font-family: var(--plus-jakarta-sans);
     color: var(--black-400);
@@ -83,10 +84,11 @@
 }
 
 .hero-content__buttons {
-    margin: 41px 0 0 41px;
+    margin: 41px 0 50px 120px;
     
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center; */
     gap: 36px;
 }
 
@@ -142,6 +144,7 @@
 .hero-content__customer {
     flex: 1;
     gap: 10px;
+    margin: 35px 0 0 35px;
 }
 
 .hero-content__customer h4 {
