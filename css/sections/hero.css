@@ -54,7 +54,7 @@
 
     background-image: url("../../assets/pngs/Curry-1.png"),  url("../../assets/pngs/Fried Rice-1.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: right 10px top 10px, right 0px bottom 0px;
+    background-position: right 10px top 10px, right 0px bottom 150px;
     background-size: 400px, 400px;
     
 }
@@ -84,7 +84,7 @@
 }
 
 .hero-content__buttons {
-    margin: 41px 0 50px 120px;
+    margin: 41px 0 50px 80px;
     
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +99,7 @@
     outline: none;
     border: none;
     background: var(--black-400);
+    opacity: 0.95;
 
     cursor: pointer;
 
@@ -158,4 +159,27 @@
     font-weight: 400;
     font-family: var(--plus-jakarta-sans);
     opacity: 0.6;
+}
+
+.hero-content__review {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding-left: 20px;
+}
+
+.hero-content__review img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.hero-content__review p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: var(--plus-jakarta-sans);
+    color: var(--black-400);
 }
