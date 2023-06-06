@@ -72,7 +72,7 @@ a {
   align-items: center;
 }
 
-.sushi__subtitle {
+.about-us__subtitle {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
@@ -83,7 +83,7 @@ a {
   letter-spacing: -0.01em;
 }
 
-.sushi__title {
+.about-us__title {
   font-size: 64px;
   font-weight: 600;
   font-family: var(--playfair-display);
@@ -93,7 +93,7 @@ a {
   margin-top: 16px;
 }
 
-.sushi__description {
+.about-us__description {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
